@@ -2,6 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -10,6 +17,74 @@
     <script src="./app.js" defer></script>
   </head>
   <body>
-    <div class="h-12 bg-orange-900">fffff</div>
+    <header>
+      <div class="header bg-[#1E212C] w-full h-11 flex justify-center">
+        <div
+          class="container font-normal w-4/5 flex justify-between items-center text-sm opacity-60 text-white h-full"
+        >
+          <p class="">Available 24/7 at <strong>(405) 555-0128</strong></p>
+          <nav class="flex gap-4">
+            <a href="#" class="decoration-none font-lato">Delivery & returns</a>
+            <a href="#" class="decoration-none">Track order</a>
+            <a href="#" class="decoration-none">Blog</a>
+            <a href="#" class="decoration-none">Contacts</a>
+          </nav>
+          <div class="icons flex gap-4">
+            <select name="currencies" id="currencies" class="bg-[#1E212C]">
+              <option value="dollar">Eng / $</option>
+              <option value="saab">Ru / P</option>
+              <option value="mercedes">Eng / P</option>
+              <option value="audi">Eng / $</option>
+            </select>
+            <div class="flex items-center">
+              <img
+                class="pr-1 inline-block"
+                src="./images/person_logo.svg"
+                alt=""
+              />
+              <button class="inline-block">Log in / Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu w-full h-20 flex justify-center">
+        <div
+          class="container font-normal w-4/5 flex justify-between items-center text-sm text-black h-full"
+        >
+          <nav class="w-2/5 flex justify-between font-bold items-center">
+            <a href="#">
+              <img src="./images/text_logo.svg" alt="" class="inline" />
+              <img src="./images/sign_logo.svg" alt="" class="inline" />
+            </a>
+            <a href="#">Women</a>
+            <a href="#">Men</a>
+            <a href="#">Girls</a>
+            <a href="#">Boys</a>
+            <a href="#" class="text-rose-600">Sale</a>
+          </nav>
+          <div class="info flex w-2/5 justify-between">
+            <div class="search">
+              <input
+                type="text"
+                placeholder="Search for products"
+                class="border-2 p-2"
+              />
+            </div>
+            <button>
+              <div class="flex gap-1">
+                <img src="./images/heart_logo.svg" alt="" />
+                <p>2</p>
+              </div>
+            </button>
+            <button>
+              <div class="flex gap-1">
+                <img src="./images/bucket_logo.svg" alt="" />
+                <p>4</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
