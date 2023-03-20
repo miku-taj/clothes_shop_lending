@@ -3,3 +3,18 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+
+.switch_banner_1 {
+  background-image: url(../images/main_bg.png);
+  background-repeat: no-repeat;
+  height: calc(100vh - 156px);
+}
+.switch_banner_2 {
+  background-image: url(../images/bg_1.png);
+  background-repeat: no-repeat;
+  height: calc(100vh - 156px);
+}
+.switcher_stripe {
+  left: calc(10%);
+  top: calc(65%);
+}

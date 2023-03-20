@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!--<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>-->
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -63,28 +64,107 @@
             <a href="#" class="text-rose-600">Sale</a>
           </nav>
           <div class="info flex w-2/5 justify-between">
-            <div class="search">
+            <div class="search w-1/2">
               <input
                 type="text"
                 placeholder="Search for products"
-                class="border-2 p-2"
+                class="border-2 p-2 w-full"
               />
             </div>
-            <button>
-              <div class="flex gap-1">
-                <img src="./images/heart_logo.svg" alt="" />
-                <p>2</p>
-              </div>
+            <div class="btns_likes_and_bucket flex gap-4">
+              <button>
+                <div class="flex gap-1">
+                  <img src="./images/heart_logo.svg" alt="" />
+                  <p>2</p>
+                </div>
+              </button>
+              <button>
+                <div class="flex gap-1">
+                  <img src="./images/bucket_logo.svg" alt="" />
+                  <p>4</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bargain w-full h-8 bg-[#17696A] flex justify-center"></div>
+    </header>
+    <div class="banner w-full flex flex-nowrap overflow-hidden">
+      <div
+        class="absolute top-1/2 left-10 z-10 flex justify-center items-center w-10 h-10 bg-white opacity-50 rounded-full"
+      >
+        <img src="./images/toLeft.svg" alt="" />
+      </div>
+      <div
+        class="switch_banner_1 relative right-0 w-full flex-shrink-0 bg-cover flex justify-center items-center"
+      >
+        <div class="content -mt-20 h-2/4 w-4/5">
+          <h3 class="text-lg font-bold leading-7">New collection</h3>
+          <h1 class="text-[#1E212C] text-7xl font-black">Menswear 2023</h1>
+          <div class="btns flex gap-4 mt-8">
+            <button
+              class="border-2 text-base font-bold border-[#17696A] bg-[#17696A] text-white hover:text-black hover:bg-transparent transition-all py-3 px-10 rounded-lg"
+            >
+              Shop sale
             </button>
-            <button>
-              <div class="flex gap-1">
-                <img src="./images/bucket_logo.svg" alt="" />
-                <p>4</p>
-              </div>
+            <button
+              class="border-2 text-base font-bold bg-[#17696A] text-white hover:text-black hover:bg-transparent transition-all border-[#17696A] py-3 px-10 rounded-lg"
+            >
+              Shop the menswear
             </button>
           </div>
         </div>
       </div>
-    </header>
+      <div
+        class="switch_banner_2 relative right-0 flex-shrink-0 w-full bg-cover flex justify-center items-center"
+      >
+        <div class="content -mt-20 h-2/4 w-4/5">
+          <h3 class="text-lg font-bold leading-7">New collection</h3>
+          <h1 class="text-[#1E212C] text-7xl font-black">Menswear 2020</h1>
+          <div class="btns flex gap-4 mt-8">
+            <button
+              class="border-2 text-base font-bold border-[#17696A] py-3 px-10 rounded-lg"
+            >
+              Shop sale
+            </button>
+            <button
+              class="border-2 text-base font-bold text-white bg-[#17696A] border-[#17696A] py-3 px-10 rounded-lg"
+            >
+              Shop the menswear
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-4/5 switcher_stripe absolute flex gap-2 text-[#424551] text-3xl font-bold"
+      >
+        <button
+          class="text-left border-b-2 border-[#424551] border-opacity-100 opacity-100 w-36"
+        >
+          01
+        </button>
+        <button
+          class="text-left border-b-2 border-[#424551] border-opacity-60 opacity-60 w-36"
+        >
+          02
+        </button>
+        <button
+          class="text-left border-b-2 border-[#424551] border-opacity-60 opacity-60 w-36"
+        >
+          03
+        </button>
+        <button
+          class="text-left border-b-2 border-[#424551] border-opacity-60 opacity-60 w-36"
+        >
+          04
+        </button>
+      </div>
+      <div
+        class="absolute top-1/2 right-10 z-10 flex justify-center items-center w-10 h-10 bg-white opacity-50 rounded-full"
+      >
+        <img src="./images/toRight.svg" alt="" />
+      </div>
+    </div>
   </body>
 </html>
