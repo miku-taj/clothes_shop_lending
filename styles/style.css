@@ -4,6 +4,9 @@
   font-family: "Lato", sans-serif;
 }
 
+.wrapper {
+  scroll-behavior: smooth;
+}
 .switch_banner {
   height: 35vw;
 }
